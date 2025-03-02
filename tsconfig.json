@@ -20,7 +20,7 @@
       "@shared/*": ["./src/shared/*"]
     }
   },
-  "include": ["webpack.config.ts", "src", "types", "config"],
+  "include": ["webpack.config.ts", "src", "types", "config", "./setupTests.ts"],
   "files": ["types/config.d.ts", "types/global.d.ts"],
   "ts-node": {
     "compilerOptions": {
