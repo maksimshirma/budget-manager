@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Inter;
+  src: url('@shared/assets/fonts/inter-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('@shared/assets/fonts/inter-bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+html {
+  font-family: serif;
+}
+
+.fonts-loaded {
+  font-family: Inter, serif;
+}
